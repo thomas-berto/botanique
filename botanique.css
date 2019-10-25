@@ -1,0 +1,183 @@
+.body1{
+background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
+background-size: cover;
+}
+
+
+header{
+background-image: url("https://www.mnhn.fr/sites/mnhn.fr/files/styles/bandeau_home/public/thumbnails/image/botanique_1440x850.jpg?itok=_ehkI1kB");
+background-size: 100%;
+margin left: -7%;
+}
+
+#header-ul{
+font-family: cursive;
+display: flex;
+list-style: none;
+}
+.header-li{
+margin-left: 10%;
+font-size: 120%;
+justify-content: space-around;
+}
+.header-a{
+text-decoration: none;
+color: black;
+}
+
+.bienvenue{
+margin-top: 3%;
+color: black;
+}
+
+.ouii{
+animation: loop 10s infinite;
+font-family: cursive;
+color: yellow;
+}
+
+@keyframes loop{
+    0%{ transform: translateY(0px)
+    }
+
+    33%{
+        transform: translateY(-50px)
+    }
+
+    66%{
+        transform: translateY(50px)
+
+    }
+
+    100%{
+        transform: translateY(0px)
+    }
+}
+
+.welcolme{
+width: 560px;
+height: 315px;
+}
+
+.bouge{
+justify-content: space-around;
+display: flex;
+}
+
+.body2{
+background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
+background-size: cover;
+}
+
+.premier{
+color: white;
+}
+
+.vivi{
+width: 560px;
+height: 315px;
+justify-content: space-around;
+margin-left: 3%;
+}
+
+.body3{
+background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
+background-size: cover;
+}
+
+.foto{
+height:225px;
+width: 460px;
+margin-left:30%;
+}
+
+.plantes{
+font-family: cursive;
+color: white;
+margin-top: 4%;
+text-align: center;
+}
+
+.ecriture{
+font-family: cursive;
+color: yellow;
+}
+
+
+.body4{
+background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
+background-size: cover;
+}
+
+.body5{
+background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
+background-size: cover;
+}
+
+.leg{
+display: inline-flex;
+font-family: cursive;
+color: yellow;
+}
+
+.couleur{
+color: white;
+}
+
+
+.avant{
+height: 320px;
+width: 460px;
+margin-top: 3%;
+}
+
+.body6{
+background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
+background-size: cover;
+}
+
+.legumes{
+display: flex;
+font-family: cursive;
+color: yellow;
+}
+
+.coul{
+color: white;
+box-shadow: 10px 5px 5px white;
+}
+
+
+.av{
+height: 320px;
+width: 460px;
+margin-top: 3%;
+margin-left: 5%;
+}
+
+.log{
+margin-left: 36%;
+margin-right: 36%;
+flex-direction: column;
+}
+
+
+.logo{
+height: 60px;
+width: 60px;
+border-radius: 30%;
+background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
+padding: 10px;
+animation: rotation 3s linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0) translateX(0px);
+  }
+  25%{
+    transform: rotate(300deg) translateX(20px);
+  }
+  50%{
+    transform: rotate(320deg) translateX(0px);
+  }
